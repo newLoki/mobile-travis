@@ -24,7 +24,7 @@ mobileTravisCI.app = M.Application.design({
                 content: M.ScrollView.design({
                     childViews: 'label',
                     label: M.LabelView.design({
-                        value: 'Welcome to The M-Project'
+                        value: 'Welcome to Travis CI Mobile'
                     })
                 }),
 
