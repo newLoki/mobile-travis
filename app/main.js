@@ -1,38 +1,19 @@
 // ==========================================================================
 // The M-Project - Mobile HTML5 Application Framework
-// Generated with: Espresso 
+// Generated with: Espresso
 //
-// Project: mobileTravisCI 
+// Project: mobileTravisCI
 // ==========================================================================
 
 var mobileTravisCI  = mobileTravisCI || {};
 
 mobileTravisCI.app = M.Application.design({
+    entryPage: 'page1',
 
-    /* Define the entry/start page of your app. This property must be provided! */
-    entryPage : 'page1',
+    page1: mobileTravisCI.FirstPageView,
 
-    page1: M.PageView.design({
+    page2: mobileTravisCI.SecondPageView,
 
-        childViews: 'header content footer',
-
-                header: M.ToolbarView.design({
-                    value: 'HEADER',
-                    anchorLocation: M.TOP
-                }),
-
-                content: M.ScrollView.design({
-                    childViews: 'label',
-                    label: M.LabelView.design({
-                        value: 'Welcome to Travis CI Mobile'
-                    })
-                }),
-
-                footer: M.ToolbarView.design({
-                    value: 'FOOTER',
-                    anchorLocation: M.BOTTOM
-                })
-
-    })
+    page3: mobileTravisCI.ThirdPageView
 
 });
