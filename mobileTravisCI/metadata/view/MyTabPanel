@@ -1,0 +1,102 @@
+{
+    "id": "ExtBox1-ext-gen4816",
+    "type": "tabpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "style": "font-size: 16px;",
+        "designer|userClassName": "MyTabPanel"
+    },
+    "customConfigs": [],
+    "designerId": "44d44d03-4673-4d48-8d38-68044cdc1423",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen4830",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "modal": false,
+                "designer|userClassName": "MyContainer",
+                "title": "All projects"
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen7303",
+                    "type": "dataview",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "allRepositories",
+                        "itemTpl": "<div>Data View Item {string}</div>",
+                        "store": "MyJsonStore",
+                        "designer|userClassName": "MyDataView"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen10336",
+                    "type": "list",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemTpl": "<div>List Item {string}</div>",
+                        "store": "MyJsonStore",
+                        "designer|userClassName": "MyList"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen4838",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyContainer1",
+                "title": "My projects"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen4846",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "modal": false,
+                "designer|userClassName": "MyContainer2",
+                "title": "Worker status"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}
